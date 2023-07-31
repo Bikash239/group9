@@ -1,0 +1,151 @@
+/* styles.css */
+
+/* Style the navigation bar */
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Style the header */
+.header-wrapper {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.header-wrapper h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.header-wrapper p {
+  font-size: 1.1rem;
+}
+
+/* Style the welcome section */
+.welcome {
+  margin-top: 2rem;
+}
+
+.welcome-thumb h3 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.welcome-intro {
+  margin-top: 2rem;
+}
+
+.welcome-intro h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.welcome-intro p {
+  font-size: 1.1rem;
+}
+
+/* Style the popular destination section */
+.popular-destination {
+  margin-top: 3rem;
+}
+
+.popular-destination h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.pop-dest h3 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.pop-dest p {
+  font-size: 1.1rem;
+}
+
+/* Style the vlog section */
+.vlog-wrapper {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.trekking-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Style the about-us/google-map section */
+.about-us-bg {
+  background-color: #f8f9fa;
+  padding: 3rem 0;
+}
+
+.about-us-bg h1 {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-us-bg h3 {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.about-us-bg p {
+  font-size: 1.1rem;
+}
+
+/* Style the footer */
+.footer-wrapper {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+.footer-wrapper p {
+  font-size: 1rem;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+
+  .vlog-wrapper {
+    padding: 2rem 0;
+  }
+
+  .vlog-wrapper .trekking-title {
+    font-size: 2rem;
+  }
+
+  .about-us-bg {
+    padding: 2rem 0;
+  }
+
+  .about-us-bg h1 {
+    font-size: 2rem;
+  }
+}
